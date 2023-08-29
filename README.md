@@ -23,3 +23,8 @@ The Dataset consists of various files.
 3.  **Azure Databricks :** Databricks is an analytics platform built on top of Apache Spark, desgined to help data engineers, data scientists collaborate on big data processing and machine learning tasks.
    
 4.  **Synapse Analytics :** SQL Datawarehouse, is a cloud based analytics service. It combines big data and datawarehousing into a single integrated platform allowing the processing of large volumes of data for business intelligence and data analytics.
+
+
+### Project Execution Flow
+Dataset -> Data Factory -> Data Lake Gen2 -> Databricks (transformation) -> Data Lake Gen2 -> Azure Synapse -> Dashboard(Tableau, Power BI)
+
